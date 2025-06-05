@@ -1,0 +1,33 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Azure Functions local settings (não versionar segredos)
+UploadVideoFunction/local.settings.json
+
+# Logs and runtime artifacts
+*.log
+
+# Vídeos de entrada/saída (gerados pelo app, não devem ser versionados)
+*.mp4
+*.MP4
+*.MOV
+
+# Outros arquivos de build temporário ou lixo
+*.bak
+*.swp
