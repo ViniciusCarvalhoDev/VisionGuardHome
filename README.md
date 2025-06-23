@@ -1,10 +1,13 @@
-#VisionGuardHome 🛡️
+##VisionGuardHome 🛡️
+
 Sistema de vigilância em tempo real com reconhecimento facial, gravação inteligente detecção de anomalias, upload automático e notificação.
 
 🎯 Objetivo
+
 Fornecer uma solução completa para monitoramento automático com visão computacional, capaz de detectar e reconhecer faces específicas, movimentações, armazenar 30 segundos antes e depois da detecção, e enviar o vídeo gravado para um endpoint via API.
 
 🧩 Funcionalidades
+
 Detecção e reconhecimento de faces e objetos.
 
 Reconhecimento de pessoas com base em fotos de referência em known_faces/.
@@ -20,6 +23,7 @@ Disparo de notificaçao para o WhatsApp
 Logs detalhados para fácil monitoramento e debugging.
 
 🚀 Pré-requisitos
+
 Python ≥ 3.8
 
 macOS ARM (M1/M2/M3) ou Linux/Windows
@@ -47,13 +51,14 @@ pip install git+https://github.com/ageitgey/face_recognition_models
 
 🗂️ Estrutura do repositório
 
-
+(```)
 VisionGuardHome/
 ├── known_faces/
 │   └── faces.png        ← Fotos de referência
 ├── face_recognition_live.py ← Script principal
 ├── requirements.txt        ← Dependências (facultativo)
 └── README.md               ← Este arquivo
+(```)
 
 ⚙️ Como usar
 
